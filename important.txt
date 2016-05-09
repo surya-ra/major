@@ -1,0 +1,12 @@
+			CROSS-ORIGIN-XMPL-HTTP-TEQUEST
+
+there is a problem related to the headers. this is known as  "NO-ACCESS-CONTROL-ALLOW-ORIGIN-HEADER". this header is related to the CORS.  
+CAUSE:
+while doing an XML Http Request to a different domain than the page is on, the browser blocks it as it usually allows a request in the same origin for security reasons. while using postman they are not restricted by this policy.
+
+CURE:
+from google chrome playstore we need to add extension.
+
+CORS:
+read about it in https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
+

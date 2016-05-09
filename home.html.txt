@@ -1,0 +1,16 @@
+<ion-navbar *navbar>
+	<ion-title>
+	Home
+	</ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+	<ion-list>
+		<ion-item>
+			<ion-label floating>username</ion-label>
+			<ion-input[(ngmodel)]="usercreds.name" type="text"></ion-input>
+		</ion-item>
+	</ion-list>
+	<button(click)="login(usercreds)">login</button>
+	<button(click)="signup()">signup</button>
+</ion-content>	
